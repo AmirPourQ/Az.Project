@@ -15,3 +15,51 @@ body{
     border-radius: 10px;
     box-shadow: 5px 20px 50px;
    }
+   input{
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   }
+   button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #7895CB;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+   }
+   button:hover{
+    background: #4A55A2;
+   }
+   .Login{
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+   }
+   .Login label{
+    color: #4A55A2    ;
+    transform: scale(.6);
+   }
+   
+   #az:checked ~ .Login{
+    transform: translateY(-500px);
+   }
+
